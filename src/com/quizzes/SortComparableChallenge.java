@@ -20,8 +20,8 @@ public class SortComparableChallenge {
         List<Simpson> list = new ArrayList<>();
         list.addAll(set);
         Collections.reverse(list);
-        Collections.reverse(list);
-        Collections.reverse(list);
+        //Collections.reverse(list);
+        //Collections.reverse(list);
 
         list.forEach(System.out::println);
 
